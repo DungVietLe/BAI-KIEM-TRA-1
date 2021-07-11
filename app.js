@@ -1,10 +1,10 @@
-// let str_input = prompt('enter the String:');
-// let newString = [];
-// for(let i = str_input.length - 1 ; i >=0 ; i-- ) {
-//     newString.push(str_input[i]);
+ let str_input = prompt('enter the String:');
+ let newString = [];
+for(let i = str_input.length - 1 ; i >=0 ; i-- ) {
+    newString.push(str_input[i]);
     
-// };
-// console.log(newString.join(''));
+ };
+ console.log(newString.join(''));
 
 
 /**bai 2 */
@@ -23,16 +23,16 @@ console.log(arr.join(' '));
 
 // /**bai 3 */
 
-// // let arr = [1, 2, 3, 3, 4, 5, 4, 4, 4, 5, 5];
-// // let newArr = [];
-// // for (let i = 0; i < arr.length; i++) {
-// //     if (newArr.indexOf(arr[i]) === -1) {
-// //         newArr.push(arr[i])
-// //     }
-// // }
-// // console.log(newArr);
+ let arr = [1, 2, 3, 3, 4, 5, 4, 4, 4, 5, 5];
+ let newArr = [];
+ for (let i = 0; i < arr.length; i++) {
+    if (newArr.indexOf(arr[i]) === -1) {
+         newArr.push(arr[i])
+     }
+ }
+ console.log(newArr);
 
-// /**bai 4 */
+/**bai 4 */
 // let minX = [
 //     {
 //         name: 'nguyen van a',
